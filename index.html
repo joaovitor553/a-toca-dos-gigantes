@@ -1,0 +1,30 @@
+html:5
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>A TOCA DOS GIGANTES</title>
+</head>
+<body> 
+    <main>
+ <div class="passo ativo" id="passo-0">
+    <img src="cenario-passo0.png" alt="">
+   <p>Na casa da avó, voce encontra um caderno velho, com fotos e uma carta marcando nomes de cidades e um local chamado toca dos gigantes, seu objetivo é encontrar o lugar usando as pistas que estão em Peirópolis ou no Mato grosso.</p>
+        <button class="btn-proximo"data-proximo="1">Peirópolis </button>
+        <button class="btn-proximo" data-proximo="2">Mato Grosso</button>
+          </div>
+            <div class="passo" id="passo-1">
+                      <p>Você começa sua jornada no Mato Grosso, subindo as montanhas ao amanhecer para encontrar a primeira pista.</p>
+                      <button class="btn-proximo" data-proximo="3">Procurar a pista no topo do pico</button>
+                      <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+         </div> 
+         <div class="passo" id="passo-2">
+        <p>Em Peirópolis, você visita o museu cheio de fósseis e réplicas de animais pré históricos. No caderno, uma das pistas indica que para localizar a entrada para a toca você deve procurar a próxima pista em um dos espaços de Peirópolis. Por qual você começa?</p>
+                    <button class="btn-proximo" data-proximo="5">Investigar os fósseis</button>
+                    <button class="btn-proximo" data-proximo="6">Explorar as cachoeiras</button>
+        </div>
+        </main>
+        <script src="script.js"></script>
+</body>
+</html>
